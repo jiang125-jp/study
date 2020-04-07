@@ -12,10 +12,10 @@ spring:
           enabled: true
         # 路由（routes：路由，它由唯一标识（ID）、目标服务地址（uri）、一组断言（predicates）和一组过滤器组成（filters）。filters 不是必需参数。）
       routes:
-      - id: test-eureka
-        uri: lb://test-eureka
+      - id: test-regist
+        uri: lb://test-regist
         predicates:
-        - Path=/eureka/**
+        - Path=/regist/**
         filters:
 #        - SwaggerHeaderFilter
         - StripPrefix=1

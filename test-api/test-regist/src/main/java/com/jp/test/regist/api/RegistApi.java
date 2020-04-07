@@ -11,7 +11,7 @@ public class RegistApi {
         return "Hello！I'm a. port：8081";
     }
 
-    @RequestMapping("/name/{n}")
+    @RequestMapping("/name")
     public String name(String name) {
         return "My name is " + name + ". aaa";
     }

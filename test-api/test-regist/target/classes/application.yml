@@ -11,4 +11,4 @@ eureka:
 
 spring:
   application:
-    name: test-eureka
+    name: test-regist
