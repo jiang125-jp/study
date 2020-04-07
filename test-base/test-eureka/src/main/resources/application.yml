@@ -15,7 +15,7 @@ eureka:
     #是否从eureka上获取注册信息，同上
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${spring.cloud.client.ip-address}:${server.port}/regist/
+      defaultZone: http://${spring.cloud.client.ip-address}:${server.port}/eureka/
   #设为false，关闭自我保护主要
   server:
     # 关闭注册中心的保护机制 默认为true (生成环境建议开启)
@@ -24,4 +24,4 @@ eureka:
     eviction-interval-timer-in-ms: 4000
 spring:
   application:
-    name: test-regist
+    name: test-eureka
