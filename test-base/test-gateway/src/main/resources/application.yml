@@ -12,10 +12,10 @@ spring:
           enabled: true
         # 路由（routes：路由，它由唯一标识（ID）、目标服务地址（uri）、一组断言（predicates）和一组过滤器组成（filters）。filters 不是必需参数。）
       routes:
-      - id: test-regist
-        uri: lb://test-regist
+      - id: test-eureka
+        uri: lb://test-eureka
         predicates:
-        - Path=/regist/**
+        - Path=/eureka/**
         filters:
 #        - SwaggerHeaderFilter
         - StripPrefix=1
@@ -23,7 +23,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:9001/regist/
+      defaultZone: http://127.0.0.1:9001/eureka/
   instance:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
     hostname: ${spring.cloud.client.ip-address}
