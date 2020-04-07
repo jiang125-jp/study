@@ -23,6 +23,7 @@ public class SheepApi {
         List<Sheep> sheeps = sheepService.getSheepList();
         testRedis();
         return JSON.toJSONString(sheeps);
+
     }
 
     private void testRedis(){
