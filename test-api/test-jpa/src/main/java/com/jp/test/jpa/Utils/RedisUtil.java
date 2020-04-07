@@ -1,4 +1,4 @@
-package com.jp.test.regist.Utils;
+package com.jp.test.jpa.Utils;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.data.redis.core.RedisTemplate;

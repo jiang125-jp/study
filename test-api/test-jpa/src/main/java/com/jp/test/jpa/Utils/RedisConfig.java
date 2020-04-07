@@ -1,4 +1,4 @@
-package com.jp.test.regist.Utils;
+package com.jp.test.jpa.Utils;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

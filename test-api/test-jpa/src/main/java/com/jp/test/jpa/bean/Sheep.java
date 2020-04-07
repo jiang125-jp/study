@@ -1,4 +1,4 @@
-package com.jp.test.regist.bean;
+package com.jp.test.jpa.bean;
 
 import lombok.Data;
 

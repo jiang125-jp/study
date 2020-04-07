@@ -1,6 +1,6 @@
-package com.jp.test.regist.services;
+package com.jp.test.jpa.services;
 
-import com.jp.test.regist.bean.Sheep;
+import com.jp.test.jpa.bean.Sheep;
 
 import java.util.List;
 

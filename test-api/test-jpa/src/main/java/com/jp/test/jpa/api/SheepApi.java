@@ -1,9 +1,9 @@
-package com.jp.test.regist.api;
+package com.jp.test.jpa.api;
 
 import com.alibaba.fastjson.JSON;
-import com.jp.test.regist.Utils.RedisUtil;
-import com.jp.test.regist.bean.Sheep;
-import com.jp.test.regist.services.SheepService;
+import com.jp.test.jpa.Utils.RedisUtil;
+import com.jp.test.jpa.bean.Sheep;
+import com.jp.test.jpa.services.SheepService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,7 +26,7 @@ public class SheepApi {
 
     }
 
-    private void testRedis(){
+    private void testRedis() {
         boolean b;
 //        List<Object> sheepList = new ArrayList<>();
         Sheep sheep = new Sheep();
