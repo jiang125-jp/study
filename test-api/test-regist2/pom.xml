@@ -11,4 +11,11 @@
 
     <artifactId>test-regist2</artifactId>
     <name>test-regist2</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+    </dependencies>
 </project>

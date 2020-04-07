@@ -1,4 +1,4 @@
-package com.jp.test.regist;
+package com.jp.test.regist2;
 
 
 import org.springframework.boot.SpringApplication;
