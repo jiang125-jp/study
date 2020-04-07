@@ -6,9 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testapi" />
-        <module name="testbase" />
+        <module name="test-base" />
+        <module name="test-gateway" />
+        <module name="test-regist2" />
+        <module name="test-regist" />
+        <module name="test-eureka" />
+        <module name="test-jpa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test-redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test-base" options="-parameters" />
+      <module name="test-eureka" options="-parameters" />
+      <module name="test-gateway" options="-parameters" />
+      <module name="test-jpa" options="-parameters" />
+      <module name="test-redis" options="-parameters" />
+      <module name="test-regist" options="-parameters" />
+      <module name="test-regist2" options="-parameters" />
+    </option>
   </component>
 </project>
