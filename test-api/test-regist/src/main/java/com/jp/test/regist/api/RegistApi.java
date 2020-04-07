@@ -1,28 +1,28 @@
 package com.jp.test.regist.api;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.jp.test.regist.bean.Monkey;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class RegistApi {
 
-    @RequestMapping("/hello")
+    @GetMapping("/hello")
     public String hello() {
         return "Hello！I'm a. port：8081";
     }
 
-    @RequestMapping("/name")
-    public String name(String name) {
-        return "My name is " + name + ". aaa";
+    @GetMapping("/name/{n}")
+    public String name(@PathVariable String n) {
+        return "My name is :" + n;
     }
 
-    @RequestMapping("/age")
-    public String age(String age) {
-        return "I am " + age + " years old this year. aaa";
+    @PostMapping("/age")
+    public String age(@RequestBody Monkey monkey) {
+        return "I am " + monkey.getName() + ",I am " + monkey.getAge() + " years old this year";
     }
 
-    @RequestMapping("/routeAll")
-    public String routeAll(String pass) {
+    @GetMapping("/routeAll/{pass}")
+    public String routeAll(@PathVariable String pass) {
         return "Can I pass? " + pass + "! port：8081";
     }
 
