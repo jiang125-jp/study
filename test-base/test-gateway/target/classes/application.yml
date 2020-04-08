@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: test-gateway
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
   cloud:
     gateway:
       discovery:
@@ -12,13 +16,55 @@ spring:
           enabled: true
         # 路由（routes：路由，它由唯一标识（ID）、目标服务地址（uri）、一组断言（predicates）和一组过滤器组成（filters）。filters 不是必需参数。）
       routes:
+        # 路由标识（id：标识，具有唯一性）
       - id: test-regist
+        # 目标服务地址（uri：地址，请求转发后的地址）  转发地址为注册中心服务名，格式为lb://***,可配置负载均衡
         uri: lb://test-regist
+        # 路由条件（predicates：断言，匹配 HTTP 请求内容）
         predicates:
         - Path=/regist/**
         filters:
-#        - SwaggerHeaderFilter
+          # 截取路径位数
         - StripPrefix=1
+        - name: Hystrix
+          args:
+            # 自定义熔断名
+            name: fallbackcmd
+            # fallback 时调用的方法
+            fallbackUri: forward:/fallback
+
+        #路由2
+      - id: test-regist2
+        uri: lb://test-regist2
+        predicates:
+        - Path=/regist2/**
+        filters:
+        - StripPrefix=1
+          # 添加指定参数(参数名，值) 等同于htp://uri?age=three
+        - AddRequestParameter=age,three
+        # 限流
+        - name: RequestRateLimiter
+          args:
+            # 使用自定义类，与自定义的RateLimiterConfig类中的bean的name相同
+            key-resolver: '#{@remoteAddrKeyResolver}'
+            # 每秒最大访问次数(相当于同一种限制类型每秒允许访问次数)
+            redis-rate-limiter.replenishRate: 1
+            # 令牌桶最大个数(相当于每秒同时允许访问次数)
+            redis-rate-limiter.burstCapacity: 10
+
+# Hystrix 断路时间配置(毫秒)
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 8000
 
 eureka:
   client:

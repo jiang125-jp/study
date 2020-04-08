@@ -1,6 +1,5 @@
 package com.jp.test.regist.api;
 
-import com.jp.test.regist.bean.Monkey;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -16,9 +15,24 @@ public class RegistApi {
         return "My name is :" + n;
     }
 
-    @PostMapping("/age")
-    public String age(@RequestBody Monkey monkey) {
-        return "I am " + monkey.getName() + ",I am " + monkey.getAge() + " years old this year";
+    @GetMapping("/age")
+    public String age(String age) {
+        try{
+            Thread.sleep(10000);
+        }catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return "I am " + age + " years old this year. aaa";
+    }
+
+    @PostMapping("/age2")
+    public String age2() {
+        try{
+            Thread.sleep(10000);
+        }catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return "I am age2 years old this year. aaa";
     }
 
     @GetMapping("/routeAll/{pass}")
