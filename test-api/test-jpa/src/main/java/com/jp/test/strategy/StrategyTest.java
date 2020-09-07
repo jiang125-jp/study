@@ -1,4 +1,4 @@
-package com.jp.test.jpa;
+package com.jp.test.strategy;
 
 import com.jp.test.jpa.Utils.*;
 

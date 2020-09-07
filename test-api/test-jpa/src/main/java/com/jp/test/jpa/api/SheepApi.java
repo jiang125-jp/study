@@ -1,6 +1,5 @@
 package com.jp.test.jpa.api;
 
-import com.alibaba.fastjson.JSON;
 import com.jp.test.jpa.Utils.RedisUtil;
 import com.jp.test.jpa.api.model.UserListResp;
 import com.jp.test.jpa.bean.Sheep;
@@ -8,6 +7,8 @@ import com.jp.test.jpa.bean.User;
 import com.jp.test.jpa.loader.UserThreadQuery;
 import com.jp.test.jpa.services.SheepService;
 import com.jp.test.jpa.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,18 +26,21 @@ public class SheepApi {
 
     private final SheepService sheepService;
     private final UserService userService;
+    private final ValueOperations<String, Object> valueOperations;
 
-    public SheepApi(SheepService sheepService, UserService userService) {
+    @Autowired
+    public SheepApi(SheepService sheepService, UserService userService, ValueOperations<String, Object> valueOperations) {
         this.sheepService = sheepService;
         this.userService = userService;
+        this.valueOperations = valueOperations;
     }
 
     @GetMapping("/getSheepList")
     public String getSheepByName() {
-        List<Sheep> sheeps = sheepService.getSheepList();
+//        List<Sheep> sheeps = sheepService.getSheepList();
         testRedis();
-        return JSON.toJSONString(sheeps);
-
+//        return JSON.toJSONString(sheeps);
+        return null;
     }
 
     /**
@@ -46,7 +50,7 @@ public class SheepApi {
     public UserListResp getUserList() throws Exception {
         UserListResp resp = new UserListResp();
         Long count = userService.getUserTotalCount();
-        Map<Long,User> map = new HashMap<>();
+        Map<Long, User> map = new HashMap<>();
         int pageSize = 10;
         //需要查询的次数
         int times = count.intValue() / pageSize;
@@ -67,9 +71,9 @@ public class SheepApi {
         if (futures.size() > 0) {
             for (Future<List<User>> future : futures) {
                 List<User> list = future.get();
-                if(list.size() > 0){
-                    for(User user : list) {
-                        map.put(user.getId(),user);
+                if (list.size() > 0) {
+                    for (User user : list) {
+                        map.put(user.getId(), user);
                     }
                 }
             }
@@ -81,34 +85,44 @@ public class SheepApi {
 
     private void testRedis() {
         boolean b;
-//        List<Object> sheepList = new ArrayList<>();
+        List<Object> sheepList = new ArrayList<>();
         Sheep sheep = new Sheep();
         sheep.setName("咩咩");
         sheep.setAge(100);
-//        Sheep sheep2 = new Sheep();
-//        sheep2.setName("咩咩2");
-//        sheep2.setAge(120);
-//        Sheep sheep3 = new Sheep();
-//        sheep3.setName("咩咩3");
-//        sheep3.setAge(130);
-//        Sheep updateSheep = new Sheep();
-//        updateSheep.setName("咩咩4");
-//        updateSheep.setAge(140);
+        Sheep sheep2 = new Sheep();
+        sheep2.setName("咩咩2");
+        sheep2.setAge(120);
+        Sheep sheep3 = new Sheep();
+        sheep3.setName("咩咩3");
+        sheep3.setAge(130);
+        Sheep updateSheep = new Sheep();
+        updateSheep.setName("咩咩4");
+        updateSheep.setAge(140);
 
-        // 普通存储测试
-        RedisUtil.set("name", sheep.getName());
-        RedisUtil.set("age", sheep.getAge());
+//        // 普通存储测试
+//        valueOperations.set("name", sheep.getName(),8000,TimeUnit.SECONDS);
+//        System.out.println("========== 存入String ==========");
+//        System.out.println(valueOperations.get("name"));
+//        System.out.println(valueOperations.getOperations().getExpire("name", TimeUnit.SECONDS));
+//        System.out.println(RedisUtil.getExpire("name"));
+//        RedisUtil.setExpire("name",8000);
+//        System.out.println(valueOperations.getOperations().getExpire("name", TimeUnit.SECONDS));
+//        System.out.println(RedisUtil.getExpire("name"));
+//
+//
+        valueOperations.set("name", sheep.getName());
+        valueOperations.set("age", sheep.getAge());
         System.out.println("========== 存入String ==========");
-        RedisUtil.set("sheep", sheep);
+        valueOperations.set("sheep", sheep);
         System.out.println("========== 存入对象 ==========");
-        RedisUtil.setByExpire("sheep", sheep, 5);
-        System.out.println("========== 存入对象5秒钟 ==========");
-        RedisUtil.setExpire("sheep", 10);
-        System.out.println("========== 设置有效期为10秒钟 ==========");
-        long seconde = RedisUtil.getExpire("sheep");
-        System.out.println("========== 查看对象有效期(s) ========== ：" + seconde);
-        b = RedisUtil.hasKey("sheep");
-        System.out.println("========== 根据key查看对象是否存在 ========== ：" + b);
+//        RedisUtil.setByExpire("sheep", sheep, 5);
+//        System.out.println("========== 存入对象5秒钟 ==========");
+//        RedisUtil.setExpire("sheep", 10);
+//        System.out.println("========== 设置有效期为10秒钟 ==========");
+//        long seconde = RedisUtil.getExpire("sheep");
+//        System.out.println("========== 查看对象有效期(s) ========== ：" + seconde);
+//        b = RedisUtil.hasKey("sheep");
+//        System.out.println("========== 根据key查看对象是否存在 ========== ：" + b);
         Sheep s = (Sheep) RedisUtil.get("sheep");
         System.out.println("========== 查看对象 ========== ：" + s);
 //        try {
@@ -116,15 +130,15 @@ public class SheepApi {
 //        } catch (Exception ex) {
 //            System.out.println(ex.getMessage());
 //        }
-        s = (Sheep) RedisUtil.get("sheep");
-        System.out.println("========== 查看对象是否失效 ========== ：" + s);
-        String[] names = {"name", "age"};
-        RedisUtil.del(names);
-        System.out.println("========== 删除多个对象 ==========");
-        b = RedisUtil.hasKey("name");
-        System.out.println("========== 根据key查看对象是否存在 ========== ：" + b);
-        b = RedisUtil.hasKey("age");
-        System.out.println("========== 根据key查看对象是否存在 ========== ：" + b);
+//        s = (Sheep) RedisUtil.get("sheep");
+//        System.out.println("========== 查看对象是否失效 ========== ：" + s);
+//        String[] names = {"name", "age"};
+//        RedisUtil.del(names);
+//        System.out.println("========== 删除多个对象 ==========");
+//        b = RedisUtil.hasKey("name");
+//        System.out.println("========== 根据key查看对象是否存在 ========== ：" + b);
+//        b = RedisUtil.hasKey("age");
+//        System.out.println("========== 根据key查看对象是否存在 ========== ：" + b);
 
 
         // map存储测试
@@ -144,10 +158,10 @@ public class SheepApi {
         //list存储测试
 //        sheepList.add(sheep);
 //        sheepList.add(sheep2);
-
+//
 //        RedisUtil.listSet("sheepList", sheepList);
 //        System.out.println("========== 存入list对象 ==========");
-//        List list2 = RedisUtil.listGet("sheepList", 0, -1);
+//        List<Object> list2 = RedisUtil.listGet("sheepList", 0, -1);
 //        System.out.println("========== 获取list对象 ========== ：" + list2);
 //
 //        RedisUtil.listSetValue("sheepList", sheep3);
@@ -161,7 +175,7 @@ public class SheepApi {
 //        Sheep sheepGet2 = (Sheep) RedisUtil.listGetByIndex("sheepList", 1);
 //        System.out.println("========== 获取list第二个对象 ========== ：" + sheepGet2);
 //
-//        List sheepGetList = RedisUtil.listGet("sheepList", 1, 2);
+//        List<Object> sheepGetList = RedisUtil.listGet("sheepList", 1, 2);
 //        System.out.println("========== 获取list第二个和第三个对象 ========== ：" + sheepGetList);
 //
 //        RedisUtil.listUpdateByIndex("sheepList", 0, updateSheep);

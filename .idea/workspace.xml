@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/model/UserListResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/loader/UserThreadQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/test/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/test/LettuceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/META-INF/test-jpa.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/Utils/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/Utils/RedisConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -31,19 +29,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>test-redis</find>
-      <find>apiApp</find>
-      <find>mysql</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\pc\IdeaProjects\jptest</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,8 +92,10 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.jp.test.jpa.api.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\IdeaProjects\jptest\test-base\test-eureka\src\main" />
+      <recent name="C:\Users\pc\IdeaProjects\jptest\test-api\test-regist\src\main" />
+      <recent name="C:\Users\pc\IdeaProjects\jptest\test-base" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -117,16 +108,15 @@
       <recent name="C:\Users\pc\IdeaProjects\jptest\test-api\test-jpa\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jp.test.jpa.Utils" />
       <recent name="com.jp.test.jpa.services.impl" />
       <recent name="com.jp.test.jpa.services" />
       <recent name="com.jp.test.jpa.dao" />
       <recent name="com.jp.test.jpa.bean" />
-      <recent name="com.jp.test.eureka" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\IdeaProjects\jptest\test-base\test-eureka\src\main" />
-      <recent name="C:\Users\pc\IdeaProjects\jptest\test-api\test-regist\src\main" />
-      <recent name="C:\Users\pc\IdeaProjects\jptest\test-base" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jp.test.jpa.Utils" />
+      <recent name="com.jp.test.jpa.api.model" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -181,18 +171,41 @@
     </treeState>
   </component>
   <component name="RunManager" selected="Spring Boot.JpaApplication">
-    <configuration name="rest-api_2#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" index="2">
-      <method v="2" />
-    </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test-gateway" />
+    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.jpa.test.JedisTest" />
+      <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.gateway.*" />
+          <option name="PATTERN" value="com.jp.test.jpa.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jp.test.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LettuceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.jpa.test.LettuceTest" />
+      <module name="test-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jp.test.jpa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.strategy.StrategyTest" />
+      <module name="test-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,24 +214,11 @@
       <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.jpa.*" />
+          <option name="PATTERN" value="com.jp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jp.test.jpa.JpaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Regist2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test-regist2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jp.test.regist2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jp.test.regist2.Regist2Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jp.test.JpaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,10 +239,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.JpaApplication" />
+        <item itemvalue="Application.JedisTest" />
+        <item itemvalue="Application.LettuceTest" />
         <item itemvalue="Spring Boot.RegistApplication" />
-        <item itemvalue="HTTP Request.rest-api_2#2" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.Regist2Application" />
+        <item itemvalue="Application.StrategyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +280,9 @@
       <workItem from="1588833339578" duration="406000" />
       <workItem from="1589443989296" duration="18000" />
       <workItem from="1589444014907" duration="1204000" />
-      <workItem from="1592905895279" duration="5196000" />
+      <workItem from="1592905895279" duration="22264000" />
+      <workItem from="1595401299225" duration="887000" />
+      <workItem from="1599036138327" duration="27829000" />
     </task>
     <task id="LOCAL-00001" summary="test-jp">
       <created>1586230419326</created>
@@ -387,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586342474224</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="gateway hystrix">
+      <created>1593508375663</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593508375663</updated>
+    </task>
+    <task id="LOCAL-00017" summary="策略模式">
+      <created>1593598036948</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593598036948</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,73 +418,118 @@
     <MESSAGE value="gateway routes" />
     <MESSAGE value="gateway" />
     <MESSAGE value="gateway hystrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="gateway hystrix" />
+    <MESSAGE value="策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599191258188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599191258188" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593502837649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593502837649" />
-    <state width="424" height="466" key="DebuggerActiveHint" timestamp="1589444821821">
+    <state x="713" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593569802294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="424" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589444821821" />
+    <state x="713" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593569802294" />
+    <state x="550" y="110" key="CommitChangelistDialog2" timestamp="1593598035750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593598035750" />
+    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1599203161445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="460" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1599203161445" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592993315930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592993315930" />
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.0.center" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.0.left" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.0.right" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.1.bottom" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.1.center" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.1.left" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.1.right" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.2.bottom" timestamp="1589445219025">
+    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.2.bottom" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219025" />
-    <state width="1877" height="268" key="GridCell.Tab.2.center" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.2.center" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.2.left" timestamp="1589445219024">
+    <state width="1877" height="396" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.2.left" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219024" />
-    <state width="1877" height="268" key="GridCell.Tab.2.right" timestamp="1589445219025">
+    <state width="1877" height="396" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="396" key="GridCell.Tab.2.right" timestamp="1599461234728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589445219025" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1589444072361">
+    <state width="1877" height="396" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state x="714" y="242" key="RollbackChangesDialog" timestamp="1599209801266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589444072361" />
+    <state x="714" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599209801266" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593598042734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593598042734" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1599188636024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599188636024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="comparables[index]" />
+        <watch expression="comparables[j]" />
+        <watch expression="comparables" />
+        <watch expression="index" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jptest$LettuceTest.ic" NAME="LettuceTest Coverage Results" MODIFIED="1599202674228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jp.test.jpa.test.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
