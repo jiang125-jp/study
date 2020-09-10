@@ -1,4 +1,4 @@
-package com.jp.test.jpa.Utils;
+package com.jp.test.strategy;
 
 /**
  * 此类实现的是自己写的Comparator<T>

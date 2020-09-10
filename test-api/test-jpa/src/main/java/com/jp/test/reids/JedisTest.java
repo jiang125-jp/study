@@ -1,4 +1,4 @@
-package com.jp.test.jpa.test;
+package com.jp.test.reids;
 
 import redis.clients.jedis.Jedis;
 

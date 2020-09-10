@@ -1,7 +1,5 @@
 package com.jp.test.strategy;
 
-import com.jp.test.jpa.Utils.*;
-
 import java.util.Arrays;
 
 public class StrategyTest {

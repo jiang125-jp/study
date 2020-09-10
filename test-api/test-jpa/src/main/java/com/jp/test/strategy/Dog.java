@@ -1,4 +1,4 @@
-package com.jp.test.jpa.Utils;
+package com.jp.test.strategy;
 
 public class Dog implements Comparable<Dog> {
     int age;

@@ -1,4 +1,4 @@
-package com.jp.test.jpa.Utils;
+package com.jp.test.reids;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.data.redis.core.RedisTemplate;

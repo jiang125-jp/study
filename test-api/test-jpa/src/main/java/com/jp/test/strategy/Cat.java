@@ -1,4 +1,4 @@
-package com.jp.test.jpa.Utils;
+package com.jp.test.strategy;
 
 public class Cat implements Comparable<Cat> {
     int age;

@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/test/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/test/LettuceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/git/GitLabTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/git/model/ProjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/CatComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/CatComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/CatWeightComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/CatWeightComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/DogComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/DogComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/Utils/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Sorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/META-INF/test-jpa.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/Utils/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/Utils/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/test/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/test/LettuceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/LettuceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/StrategyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +96,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -171,38 +179,12 @@
     </treeState>
   </component>
   <component name="RunManager" selected="Spring Boot.JpaApplication">
-    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jp.test.jpa.test.JedisTest" />
+    <configuration name="GitLabTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.git.GitLabTest" />
       <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.jpa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LettuceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jp.test.jpa.test.LettuceTest" />
-      <module name="test-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jp.test.jpa.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jp.test.strategy.StrategyTest" />
-      <module name="test-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jp.test.*" />
+          <option name="PATTERN" value="com.jp.test.git.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,26 +205,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="test-regist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jp.test.regist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jp.test.regist.RegistApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.JpaApplication" />
-        <item itemvalue="Application.JedisTest" />
-        <item itemvalue="Application.LettuceTest" />
-        <item itemvalue="Spring Boot.RegistApplication" />
-        <item itemvalue="Application.StrategyTest" />
+        <item itemvalue="Application.GitLabTest" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +248,7 @@
       <workItem from="1589444014907" duration="1204000" />
       <workItem from="1592905895279" duration="22264000" />
       <workItem from="1595401299225" duration="887000" />
-      <workItem from="1599036138327" duration="27829000" />
+      <workItem from="1599036138327" duration="63539000" />
     </task>
     <task id="LOCAL-00001" summary="test-jp">
       <created>1586230419326</created>
@@ -403,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593598036948</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="redis">
+      <created>1599461322416</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599461322416</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,105 +392,120 @@
     <MESSAGE value="gateway" />
     <MESSAGE value="gateway hystrix" />
     <MESSAGE value="策略模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599191258188">
+    <state x="552" y="179" key="#Notifications" timestamp="1599461347662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599191258188" />
+    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1599461347662" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599467985431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599467985431" />
+    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599724072117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599724072117" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593502837649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593502837649" />
+    <state x="551" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599723981740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599723981740" />
     <state x="713" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593569802294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593569802294" />
-    <state x="550" y="110" key="CommitChangelistDialog2" timestamp="1593598035750">
+    <state x="550" y="110" key="CommitChangelistDialog2" timestamp="1599461321509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593598035750" />
-    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1599203161445">
+    <state x="550" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599461321509" />
+    <state width="787" height="466" key="DebuggerActiveHint" timestamp="1599620485832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="460" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1599203161445" />
+    <state width="787" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1599620485832" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592993315930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592993315930" />
-    <state width="1877" height="396" key="GridCell.Tab.0.bottom" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.0.center" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.0.left" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.0.right" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.1.bottom" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.1.center" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.1.left" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.1.right" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.2.bottom" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.2.bottom" timestamp="1599723861065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.2.center" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861065" />
+    <state width="1877" height="284" key="GridCell.Tab.2.center" timestamp="1599723861065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.2.left" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861065" />
+    <state width="1877" height="284" key="GridCell.Tab.2.left" timestamp="1599723861064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
-    <state width="1877" height="396" key="GridCell.Tab.2.right" timestamp="1599461234728">
+    <state width="1877" height="284" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861064" />
+    <state width="1877" height="284" key="GridCell.Tab.2.right" timestamp="1599723861065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="396" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599461234728" />
+    <state width="1877" height="284" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599723861065" />
     <state x="714" y="242" key="RollbackChangesDialog" timestamp="1599209801266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599209801266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593598042734">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1599622363797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593598042734" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1599188636024">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599622363797" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599461328402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599188636024" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599461328402" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599636460898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599636460898" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1599636615296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599636615296" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="zipFile.getParent()" />
+      </configuration>
       <configuration name="Application">
         <watch expression="comparables[index]" />
         <watch expression="comparables[j]" />
