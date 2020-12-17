@@ -2,6 +2,7 @@ package com.jp.test.reids;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
@@ -15,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class RedisUtil {
 
     private static RedisTemplate<String, Object> redisTemplate;
+    private static StringRedisTemplate stringRedisTemplate;
 
     @Resource
     public void setRedisTemplate(RedisTemplate<String, Object> redisTemplate) {
