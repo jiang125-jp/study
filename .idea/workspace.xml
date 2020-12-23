@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/cacl/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedissionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/CalcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/JpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/JpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/Utils/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/Utils/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/cacl/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="271" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -169,13 +167,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jp.test.reids.JedisTest" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.calc.BubbleSort" />
       <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.reids.*" />
+          <option name="PATTERN" value="com.jp.test.calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +181,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LettuceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jp.test.reids.LettuceTest" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.calc.InsertionSort" />
       <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.reids.*" />
+          <option name="PATTERN" value="com.jp.test.calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.calc.MergeSort" />
+      <module name="test-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jp.test.calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +208,11 @@
       </method>
     </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jp.test.cacl.SelectionSort" />
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.calc.SelectionSort" />
       <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.cacl.*" />
+          <option name="PATTERN" value="com.jp.test.calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,32 +220,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.test.calc.ShellSort" />
       <module name="test-jpa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jp.test.*" />
+          <option name="PATTERN" value="com.jp.test.calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jp.test.JpaApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JedisTest" />
-      <item itemvalue="Application.LettuceTest" />
-      <item itemvalue="Spring Boot.JpaApplication" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.LettuceTest" />
-        <item itemvalue="Application.JedisTest" />
-        <item itemvalue="Spring Boot.JpaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +292,7 @@
       <workItem from="1606198599713" duration="115000" />
       <workItem from="1606199423100" duration="3395000" />
       <workItem from="1606372044659" duration="2752000" />
-      <workItem from="1608010908871" duration="8877000" />
+      <workItem from="1608010908871" duration="54256000" />
     </task>
     <task id="LOCAL-00001" summary="test-jp">
       <created>1586230419326</created>
@@ -415,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599724591404</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="选择排序">
+      <created>1608185106351</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608185106351</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +451,8 @@
     <MESSAGE value="gateway hystrix" />
     <MESSAGE value="策略模式" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="选择排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="选择排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1599461347662">
@@ -451,50 +471,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599723981740" />
-    <state x="550" y="110" key="CommitChangelistDialog2" timestamp="1599724590447">
+    <state x="550" y="110" key="CommitChangelistDialog2" timestamp="1608185105421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599724590447" />
-    <state width="787" height="466" key="DebuggerActiveHint" timestamp="1608016921198">
+    <state x="550" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608185105421" />
+    <state width="787" height="466" key="DebuggerActiveHint" timestamp="1608605198212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="787" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608016921198" />
+    <state width="787" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1608605198212" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600424251382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600424251382" />
-    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1608625295132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
-    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295132" />
+    <state width="1877" height="265" key="GridCell.Tab.0.center" timestamp="1608625295132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
-    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295132" />
+    <state width="1877" height="265" key="GridCell.Tab.0.left" timestamp="1608625295132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
-    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295132" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right" timestamp="1608625295132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
-    <state width="1877" height="387" key="GridCell.Tab.1.bottom" timestamp="1608017593150">
+    <state width="1877" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295132" />
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom" timestamp="1608625295072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593150" />
-    <state width="1877" height="387" key="GridCell.Tab.1.center" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295072" />
+    <state width="1877" height="265" key="GridCell.Tab.1.center" timestamp="1608625295072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
-    <state width="1877" height="387" key="GridCell.Tab.1.left" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295072" />
+    <state width="1877" height="265" key="GridCell.Tab.1.left" timestamp="1608625295071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
-    <state width="1877" height="387" key="GridCell.Tab.1.right" timestamp="1608017593149">
+    <state width="1877" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295071" />
+    <state width="1877" height="265" key="GridCell.Tab.1.right" timestamp="1608625295072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="387" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608017593149" />
+    <state width="1877" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608625295072" />
     <state width="1877" height="484" key="GridCell.Tab.2.bottom" timestamp="1599794652633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -523,10 +543,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599622363797" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599724595920">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608185111115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599724595920" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608185111115" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599636460898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -539,10 +559,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="138" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599726107168" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1599811485089">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1608278796354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599811485089" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608278796354" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -554,10 +574,16 @@
         <watch expression="comparables[j]" />
         <watch expression="comparables" />
         <watch expression="index" />
+        <watch expression="array[j - 1" />
+        <watch expression="array[j - 1]" />
+        <watch expression="array" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jptest$InsertionSort.ic" NAME="InsertionSort Coverage Results" MODIFIED="1608187299538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jp.test.calc.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/jptest$LettuceTest.ic" NAME="LettuceTest Coverage Results" MODIFIED="1599202674228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.jp.test.jpa.test.*</FILTER>
     </SUITE>
