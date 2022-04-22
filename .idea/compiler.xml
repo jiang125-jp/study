@@ -19,6 +19,7 @@
       <module name="test-redis" target="1.8" />
       <module name="test-regist" target="1.5" />
       <module name="test-regist2" target="1.5" />
+      <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
