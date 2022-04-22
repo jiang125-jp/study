@@ -8,11 +8,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/design_mode/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/test-api/pom.xml" />
         <option value="$PROJECT_DIR$/test-api/test-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/test-base/pom.xml" />
       </set>
     </option>
   </component>
