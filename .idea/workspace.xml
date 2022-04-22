@@ -4,101 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="学习-设计模式-单例">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jptest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/JpaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/CalcUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/InsertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/calc/ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/git/GitLabTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/git/model/ProjectVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/SheepApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/model/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/api/model/UserListResp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/bean/Sheep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/bean/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/dao/SheepDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/dao/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/loader/UserThreadQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/services/SheepService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/services/impl/SheepServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/jpa/services/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/JedisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/LettuceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedisUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/reids/RedissionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/CatComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/CatWeightComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Comparable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Comparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/DogComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/Sorter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/java/com/jp/test/strategy/StrategyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/META-INF/test-jpa.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/api/SheepApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/bean/Sheep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/dao/SheepDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/services/SheepService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-jpa/target/classes/com/jp/test/jpa/services/impl/SheepServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/src/main/java/com/jp/test/regist/RegistApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/src/main/java/com/jp/test/regist/api/RegistApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/src/main/java/com/jp/test/regist/bean/Monkey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/target/classes/META-INF/test-regist.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/target/classes/com/jp/test/regist/RegistApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/target/classes/com/jp/test/regist/api/registApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist/target/classes/com/jp/test/regist/bean/Monkey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/src/main/java/com/jp/test/regist2/Regist2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/DesignModeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/src/main/java/com/jp/test/regist2/api/regist2Api.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/target/classes/META-INF/test-regist2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/target/classes/com/jp/test/regist2/Regist2Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-api/test-regist2/target/classes/com/jp/test/regist2/api/regist2Api.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-eureka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-eureka/src/main/java/com/jp/test/eureka/EurekaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-eureka/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-eureka/target/classes/META-INF/test-eureka.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-eureka/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-eureka/target/classes/com/jp/test/eureka/EurekaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/src/main/java/com/jp/test/gateway/GatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/src/main/java/com/jp/test/gateway/config/FallBackController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/src/main/java/com/jp/test/gateway/config/RateLimiterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/target/classes/META-INF/test-gateway.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/target/classes/com/jp/test/gateway/GatewayApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/target/classes/com/jp/test/gateway/config/FallBackController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-base/test-gateway/target/classes/com/jp/test/gateway/config/RateLimiterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/HungrySingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +78,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -411,7 +319,7 @@
       <workItem from="1622428685045" duration="586000" />
       <workItem from="1623407607558" duration="1448000" />
       <workItem from="1650608946626" duration="1354000" />
-      <workItem from="1650610336821" duration="535000" />
+      <workItem from="1650610336821" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="test-jp">
       <created>1586230419326</created>
@@ -553,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608185106351</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="学习-设计模式-单例">
+      <created>1650611015897</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650611015897</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +498,8 @@
     <MESSAGE value="策略模式" />
     <MESSAGE value="redis" />
     <MESSAGE value="选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="选择排序" />
+    <MESSAGE value="学习-设计模式-单例" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习-设计模式-单例" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
