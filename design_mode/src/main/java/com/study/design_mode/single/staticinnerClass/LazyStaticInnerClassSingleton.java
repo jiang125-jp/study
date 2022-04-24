@@ -12,11 +12,14 @@ import java.lang.reflect.Constructor;
  */
 @SuppressWarnings("unused")
 public class LazyStaticInnerClassSingleton {
-
+    /**
+     * 私有构造方法里，静止非法访问，可以防止反射破解
+     */
     private LazyStaticInnerClassSingleton() {
+        throw new RuntimeException("不允许非法访问");
     }
 
-    private static LazyStaticInnerClassSingleton getInstance() {
+    public static LazyStaticInnerClassSingleton getInstance() {
         return LazyStaticInnerLoader.LAZY_SINGLETON;
     }
 
@@ -25,5 +28,20 @@ public class LazyStaticInnerClassSingleton {
      */
     private static class LazyStaticInnerLoader {
         private static final LazyStaticInnerClassSingleton LAZY_SINGLETON = new LazyStaticInnerClassSingleton();
+    }
+
+    /**
+     * 反射破坏单例
+     */
+    public static void main(String[] args) {
+        try {
+            Class<?> clazz = LazyStaticInnerClassSingleton.class;
+            Constructor<?> constructor = clazz.getDeclaredConstructor();
+            constructor.setAccessible(true);
+            Object obj = constructor.newInstance();
+            System.out.println(obj);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 }
