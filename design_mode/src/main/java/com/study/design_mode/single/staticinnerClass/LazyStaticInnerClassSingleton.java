@@ -7,8 +7,8 @@ import java.lang.reflect.Constructor;
  *
  * @author jiangpeng
  * <p>
- * 优点：代码简洁，利用了懒加载的特性，性能高，避免内存浪费
- * 缺点：被反射破坏
+ * 优点：代码简洁，利用了懒加载的特性，性能高，避免内存浪费，不被反射破坏
+ * 缺点：不优雅
  */
 @SuppressWarnings("unused")
 public class LazyStaticInnerClassSingleton {
