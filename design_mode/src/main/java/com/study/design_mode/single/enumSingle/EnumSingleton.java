@@ -5,7 +5,7 @@ package com.study.design_mode.single.enumSingle;
  *
  * @author jiangpeng
  * 优点： 线程安全，防止反射
- * 缺点： 耗内存，会被序列化破坏
+ * 缺点： 不能生成大量单例实例，会被序列化破坏
  */
 public enum EnumSingleton {
     /**

@@ -11,16 +11,16 @@ package com.study.design_mode.single.lazy;
 @SuppressWarnings("unused")
 public class LazySingleton {
 
-    private static LazySingleton instance;
+    private static LazySingleton INSTANCE;
 
     private LazySingleton() {
     }
 
     public static LazySingleton getInstance() {
-        if (instance == null) {
-            instance = new LazySingleton();
+        if (INSTANCE == null) {
+            INSTANCE = new LazySingleton();
         }
-        return instance;
+        return INSTANCE;
     }
 }
 
