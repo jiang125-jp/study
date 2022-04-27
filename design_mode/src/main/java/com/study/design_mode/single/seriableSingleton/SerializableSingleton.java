@@ -6,6 +6,8 @@ import java.io.*;
  * 单例模式-反序列化
  *
  * @author jiangpeng
+ *
+ * 由于类的生成，是在多线程调用类之前，所以加载顺序决定了是线程安全的
  */
 public class SerializableSingleton implements Serializable {
 

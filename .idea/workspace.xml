@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="学习-设计模式-单例">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeriableSingleton.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SerializableSingleton.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/localThread/LocalThreadSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/seriableSingleton/SerializableSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/总结" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/container/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/container/ContainerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/enumSingle/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/enumSingle/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/lazy/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/lazy/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/seriableSingleton/SerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/seriableSingleton/SerializableSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/总结" beforeDir="false" afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/single/总结" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +328,7 @@
       <workItem from="1650630764537" duration="106000" />
       <workItem from="1650630884274" duration="2251000" />
       <workItem from="1650780812831" duration="80000" />
-      <workItem from="1650796939411" duration="10572000" />
+      <workItem from="1650796939411" duration="12247000" />
     </task>
     <task id="LOCAL-00001" summary="test-jp">
       <created>1586230419326</created>
@@ -513,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650891913732</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="学习-设计模式-单例">
+      <created>1650979159872</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650979159872</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
