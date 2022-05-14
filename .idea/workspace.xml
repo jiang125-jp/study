@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="学习-设计模式-单例">
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/proxy/IPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/proxy/LiSi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/proxy/MeiPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode/src/main/java/com/study/design_mode/proxy/ZhangSan.java" afterDir="false" />
+    <list default="true" id="1ee2c26b-f79a-4db4-8c3b-7c1600ad8e5b" name="Default Changelist" comment="学习-设计模式-代理模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,15 +226,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,11 +246,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.LazyStaticInnerClassSingleton" />
-      <item itemvalue="Spring Boot.DesignModeApplication" />
       <item itemvalue="Application.ContainerSingleton" />
       <item itemvalue="Application.SerializableSingleton" />
       <item itemvalue="Application.LocalThreadSingleton" />
       <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Spring Boot.DesignModeApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -331,7 +324,7 @@
       <workItem from="1650630764537" duration="106000" />
       <workItem from="1650630884274" duration="2251000" />
       <workItem from="1650780812831" duration="80000" />
-      <workItem from="1650796939411" duration="14943000" />
+      <workItem from="1650796939411" duration="15544000" />
     </task>
     <task id="LOCAL-00001" summary="test-jp">
       <created>1586230419326</created>
@@ -522,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651065994255</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="学习-设计模式-代理模式">
+      <created>1652362814467</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1652362814467</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +554,8 @@
     <MESSAGE value="redis" />
     <MESSAGE value="选择排序" />
     <MESSAGE value="学习-设计模式-单例" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习-设计模式-单例" />
+    <MESSAGE value="学习-设计模式-代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习-设计模式-代理模式" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

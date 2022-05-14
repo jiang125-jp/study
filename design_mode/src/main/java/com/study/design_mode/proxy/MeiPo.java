@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * 代理模式-媒婆
+ * 代理模式-媒婆 动态代理
  * @author jiangpeng
  */
 public class MeiPo implements InvocationHandler {
